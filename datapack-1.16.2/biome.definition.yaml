@@ -1,0 +1,7 @@
+templates:
+  - template: biome.json.ftl
+    writer: json
+    name: "@MODDATAROOT/worldgen/biome/@registryname.json"
+  - template: biome_builder.json.ftl
+    writer: json
+    name: "@MODDATAROOT/worldgen/configured_surface_builder/@registryname.json"
